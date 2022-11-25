@@ -1,0 +1,7 @@
+uses: adrianjost/files-sync-action@v1.0.1
+  with:
+    FILE_PATTERNS: |
+      ^README$
+    TARGET_REPOS: |
+      zoey-kaiser/repo2
+    GITHUB_TOKEN: ${{ secrets.GH_PAT }}
