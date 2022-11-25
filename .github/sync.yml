@@ -2,4 +2,4 @@ zoey-kaiser/repo1:
   - README.md
 zoey-kaiser/repo2:
   - source: README.md
-    dest: /test/README.md
+    dest: test/README.md
